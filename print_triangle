@@ -1,0 +1,31 @@
+//PRN: 22070123099
+//NAME: SANUSHA MENON
+// EXPERIMENT-6
+#include<iostream>
+using namespace std;
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    int k,i,j;
+    cout<<"ENTER ROWS: ";
+    cin>>k;
+    for(i=0;i<k;i++)
+    {
+        for(j=0;j<i;j++)
+        {
+            cout<<i;
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+/*/OUTPUT:
+ENTER ROWS: 6
+1
+22
+333
+4444
+55555
+/*/
